@@ -1,3 +1,17 @@
+Task 1 : 
+Sass file is present in src/styles folder
+
+Task 2 :
+data is present in src/json/data.json/data
+
+Task 3 :
+Modal component is present in src/components/modal
+
+Task 4 :
+/about-me route is present in src/App.js and navigation component is present in src/components/navigation
+ and About component is present in src/components/about
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
