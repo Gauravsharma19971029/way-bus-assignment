@@ -1,0 +1,17 @@
+.header {
+  margin: 30px;
+}
+
+.about {
+  color: black;
+}
+
+p {
+  font-size: large;
+}
+
+.profileLink {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}

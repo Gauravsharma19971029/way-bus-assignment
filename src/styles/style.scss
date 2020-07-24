@@ -1,0 +1,37 @@
+$breakpoint-size1: 360px;
+$breakpoint-size2: 768px;
+$breakpoint-size3: 1366px;
+$breakpoint-size4: 1920px;
+
+$color1: #f7fbff;
+$color2: #afaeae;
+$color3: #196782;
+$color4: #a12121;
+
+@media (min-width: 0px) and (max-width: #{$breakpoint-size1 - 1px} ) {
+  body {
+    background-color: $color1;
+  }
+}
+
+@media (min-width: $breakpoint-size1) and (max-width: #{$breakpoint-size2 - 1px} ) {
+  body {
+    background-color: $color2;
+  }
+}
+
+@media (min-width: $breakpoint-size2) and (max-width: #{$breakpoint-size3 - 1px} ) {
+  body {
+    background-color: $color3;
+  }
+}
+
+@media (min-width: $breakpoint-size3) and (max-width: #{$breakpoint-size4} ) {
+  body {
+    background-color: $color4;
+  }
+}
+
+.App {
+  text-align: center;
+}

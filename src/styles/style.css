@@ -1,0 +1,28 @@
+@media (min-width: 0px) and (max-width: 359px) {
+  body {
+    background-color: #f7fbff;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  body {
+    background-color: #afaeae;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+  body {
+    background-color: #196782;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1920px) {
+  body {
+    background-color: #a12121;
+  }
+}
+
+.App {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
